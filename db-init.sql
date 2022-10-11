@@ -37,7 +37,7 @@ INSERT INTO subtasks (id, subtask_name, subtask_isDone, task_id)
 VALUES(12365478, "A subtask", "NO", 87654321);
 
 INSERT INTO tasks (id, task_name, task_isDone, lst_id)
-VALUES(33333333, "A difficult task", "NO", 12345678);
+VALUES(33333333, "A difficult task", "YES", 12345678);
 
 INSERT INTO tasks (id, task_name, task_isDone, lst_id)
 VALUES(11111111, "My Habit", "NO", 12345670);

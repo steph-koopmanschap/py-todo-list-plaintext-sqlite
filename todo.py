@@ -107,6 +107,8 @@ def chooseOperation(command, operation, operands):
 			showManual()
 		case "exit":
 			print("Program closing...")
+			global db
+			db.close()
 			quit()
 		case _:
 			err()
